@@ -1,0 +1,45 @@
+fieldset {
+    border-width: 0px;
+    width: 300px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 2px;
+}
+
+input.text, input.btn {
+    width: 200px;
+}
+
+input.btn {
+    width: 295px;
+}
+
+div#logo {
+    height: 90px;
+    width: 90px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 14px;
+    color: #CCC;
+    margin-top: 10px;
+}

@@ -1,0 +1,61 @@
+body {
+    background-image: url(../images/bg.png);
+    background-attachment: fixed;
+}
+
+* {
+    color: #FFF;
+    font-size: 12px;
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    cursor: default;
+}
+
+input {
+    color: #000;
+    cursor: initial;
+}
+
+select.text, input.text, input.btn {
+    width: 100%;
+    padding: 5px;    
+    margin: 5px 0px 5px 0px;
+    border-width: 0px;
+    border-radius: 3px;
+    vertical-align: baseline;
+    color: #000;
+}
+
+select.text {
+    padding: 4px 5px;
+}
+
+
+select.text:focus {
+    background-color: #EFEFEF;
+}
+
+input.btn, input.btn:active {
+    width: 100%;
+    background-color: #333;
+    color: #FFF;
+}
+
+option {
+    color: #000;
+}
+
+input.btn:hover, input.btn:focus {
+    background-color: #CCC;
+    color: #000;
+}
+
+span[g] { color: #484; font-weight: bold; }
+span[r] { color: #844; font-weight: bold; }
+span[b] { color: #448; font-weight: bold; }
+span[f] { width: 125px; float: left; margin-top: 3px; }
+span[gg] { color: #0f0; font-weight: bold; }
+span[rr] { color: #f00; font-weight: bold; }
+span[bb] { color: #00f; font-weight: bold; }
